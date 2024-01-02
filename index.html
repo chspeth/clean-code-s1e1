@@ -29,36 +29,36 @@
         </div>
       </p>
       <h3>Todo</h3>
-      <ul class="main__todo-list todo" id="todo-list">
+      <ul class="main__todo-list list" id="todo-list">
         <li>
           <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <label class="list__item-name">Pay Bills</label>
+          <input type="text" class="list__input">
+          <button class="list__button">Edit</button>
+          <button class="list__delete-button">
             <img src="./remove.svg">
           </button>
         </li>
-        <li class="todo__item todo__item--edit-mode">
+        <li class="editMode">
           <input type="checkbox">
-          <label class="task">Go Shopping</label>
+          <label class="list__item-name">Go Shopping</label>
           <input type="text" 
             value="Go Shopping" 
-            class="task">
-          <button class="edit">Save</button>
-          <button class="delete">
+            class="list__input">
+          <button class="list__button">Save</button>
+          <button class="list__delete-button">
             <img src="./remove.svg">
           </button>
         </li>
       </ul>
       <h3>Completed</h3>
-      <ul id="completed-tasks">
+      <ul class="main__completed-list list" id="completed-tasks">
         <li>
           <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <label class="list__item-name">See the Doctor</label>
+          <input type="text" class="list__input">
+          <button class="list__button">Edit</button>
+          <button class="list__delete-button">
             <img src="./remove.svg">
           </button>
         </li>
