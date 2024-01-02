@@ -10,26 +10,26 @@
       media="screen" 
       charset="utf-8">
   </head>
-  <body>
-    <div class="aaa">
+  <body class="main">
+    <div class="main__top-wrapper">
       <img src="./eisenhower-matrix.jpg">
       <a 
-        class="more_inf" 
+        class="main__details-link" 
         href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
-    <div class="centered-main-page-element">
-      <p id="topSectionForAddingElementToList">
+    <div class="main__center-wrapper">
+      <p class="main__add add" id="add">
         <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
+        <div class="add__wrapper">
           <input 
             id="new-task" 
-            class="task" 
+            class="add__input" 
             type="text">
           <button>Add</button>
         </div>
       </p>
       <h3>Todo</h3>
-      <ul id="incompleteTasks">
+      <ul class="main__todo-list todo" id="todo-list">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
@@ -39,7 +39,7 @@
             <img src="./remove.svg">
           </button>
         </li>
-        <li class="editMode">
+        <li class="todo__item todo__item--edit-mode">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text" 
